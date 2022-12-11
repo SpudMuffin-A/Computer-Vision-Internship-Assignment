@@ -1,6 +1,6 @@
 import numpy as np
 def maxPool(arr,k):
-    '''Non-overlapping pooling on 2D or 3D data.
+    '''Max pooling on 2D data.
 
     <arr>: ndarray, input array to pool.
     <k>: tuple of 2, kernel size in (ky, kx).
@@ -25,7 +25,7 @@ def maxPool(arr,k):
 arr = np.array([[  20,  200,   -5,   23],
        [ -13,  134,  119,  100],
        [ 120,   32,   49,   25],
-       [-120,   12,   9,   23]])
+       [-120,   12,   9,   23]]) #Input array of size 4x4
 
-k = [2,2]
+k = [2,2] #Sliding window dimensions
 print(maxPool(arr, k))
