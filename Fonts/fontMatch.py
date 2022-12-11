@@ -2,7 +2,7 @@ import cv2 as cv
 from google.colab.patches import cv2_imshow
 import pytesseract
 from PIL import Image
-url = "/content/ubuntu.png" #Input Image
+url = "ubuntu.png" #Input Image
 img = cv.imread(url)
 im = Image.open(url)
 im = im.resize((600,250))
