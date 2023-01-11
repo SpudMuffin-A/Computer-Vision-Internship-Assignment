@@ -1,5 +1,5 @@
-# TartanSense Computer Vision Internship Assignment
-Tartan Sense Internship Assignments
+# Internship Assignment
+Internship Assignments
 
 ## Problem Statement 1: Max Pooling Problem
 
